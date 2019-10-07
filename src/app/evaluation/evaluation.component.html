@@ -1,0 +1,523 @@
+<div class="container">
+	<div class="row">
+        <div class="col-12">
+            <div class="card">
+                <h4 class="card-header font-16 mt-0">Evaluación Clínica</h4>
+                <div class="card-body">
+                    <form>
+                        <!-- Input block -->
+                        <div class="form-group row">
+                            <label class="col-sm-2 col-form-label">Utilidad</label>
+                            <div class="col-sm-8">
+                                <select class="form-control">
+                                    <option selected="selected" disabled>Seleccione ..</option>
+                                    <option>Muy alta</option>
+                                    <option>Alta</option>
+                                    <option>Media</option>
+                                    <option>Poca</option>
+                                    <option>Ninguna</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-1">
+                                <a class="btn btn-info mo-mb-2" data-toggle="collapse" href="#utilidadCollapse" aria-expanded="false" aria-controls="utilidadCollapse">Observaciones</a>
+                            </div>
+                            <div class="offset-sm-2 col-sm-8 collapse" id="utilidadCollapse">
+                                <textarea class="form-control mt-3" rows="3" placeholder="Observaciones de utilidad ..."></textarea>
+                            </div>
+                        </div>
+
+                        <!-- Input block -->
+                        <div class="form-group row">
+                            <label class="col-sm-2 col-form-label">Usabilidad</label>
+                            <div class="col-sm-8">
+                                <select class="form-control">
+                                    <option selected="selected" disabled>Seleccione ..</option>
+                                    <option>Muy fácil</option>
+                                    <option>Fácil</option>
+                                    <option>Medianamente fácil</option>
+                                    <option>Dificil</option>
+
+                                </select>
+                            </div>
+                            <div class="col-sm-1">
+                                <a class="btn btn-info mo-mb-2" data-toggle="collapse" href="#usabilidadCollapse" aria-expanded="false" aria-controls="usabilidadCollapse">Observaciones</a>
+                            </div>
+                            <div class="offset-sm-2 col-sm-8 collapse" id="usabilidadCollapse">
+                                <textarea class="form-control mt-3" rows="3" placeholder="Observaciones de usabilidad ..."></textarea>
+                            </div>
+                        </div>
+
+                        <!-- Input block -->
+                        <div class="form-group row">
+                            <label class="col-sm-2 col-form-label">Confiabilidad</label>
+                            <div class="col-sm-8">
+                                <select class="form-control">
+                                    <option selected="selected" disabled>Seleccione ..</option>
+                                    <option>Altamente confiable</option>
+                                    <option>Confiable</option>
+                                    <option>Mediamente confiable</option>
+                                    <option>Poco confiable</option>
+                                    <option>Nada confiable</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-1">
+                                <a class="btn btn-info mo-mb-2" data-toggle="collapse" href="#confiabilidadCollapse" aria-expanded="false" aria-controls="confiabilidadCollapse">Observaciones</a>
+                            </div>
+                            <div class="offset-sm-2 col-sm-8 collapse" id="confiabilidadCollapse">
+                                <textarea class="form-control mt-3" rows="3" placeholder="Observaciones de Confiabilidad ..."></textarea>
+                            </div>
+                        </div>
+
+                        <!-- Input block -->
+                        <div class="form-group row">
+                            <label class="col-sm-2 col-form-label">Operabilidad</label>
+                            <div class="col-sm-8">
+                                <select class="form-control">
+                                    <option selected="selected" disabled>Seleccione ..</option>
+                                    <option>Todas</option>
+                                    <option>La mayoría</option>
+                                    <option>Algunas</option>
+                                    <option>Pocas</option>
+                                    <option>Ninguna</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-1">
+                                <a class="btn btn-info mo-mb-2" data-toggle="collapse" href="#operabilidadCollapse" aria-expanded="false" aria-controls="operabilidadCollapse">Observaciones</a>
+                            </div>
+                            <div class="offset-sm-2 col-sm-8 collapse" id="operabilidadCollapse">
+                                <textarea class="form-control mt-3" rows="3" placeholder="Observaciones de operabilidad ..."></textarea>
+                            </div>
+                        </div>
+
+                        <!-- Input block -->
+                        <div class="form-group row">
+                            <label class="col-sm-2 col-form-label">Downtime</label>
+                            <div class="col-sm-8">
+                                <select class="form-control">
+                                    <option selected="selected" disabled>Seleccione ..</option>
+                                    <option>Siempre</option>
+                                    <option>periódicamente</option>
+                                    <option>Medianamente frecuente</option>
+                                    <option>Ocasionalmente</option>
+                                    <option>Nunca</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-1">
+                                <a class="btn btn-info mo-mb-2" data-toggle="collapse" href="#downtimeCollapse" aria-expanded="false" aria-controls="downtimeCollapse">Observaciones</a>
+                            </div>
+                            <div class="offset-sm-2 col-sm-8 collapse" id="downtimeCollapse">
+                                <textarea class="form-control mt-3" rows="3" placeholder="Observaciones del tiempo de paro ..."></textarea>
+                            </div>
+                        </div>
+
+                        <!-- Input block -->
+                        <div class="form-group row">
+                            <label class="col-sm-2 col-form-label">Tecnovigilancia</label>
+                            <div class="col-sm-8">
+                                <select class="form-control">
+                                    <option selected="selected" disabled>Seleccione ..</option>
+                                    <option>No ha tenido</option>
+                                    <option>Ha tenido 2 o menos</option>
+                                    <option>Ha tenido 3 o menos</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-1">
+                                <a class="btn btn-info mo-mb-2" data-toggle="collapse" href="#tecnovigilanciaCollapse" aria-expanded="false" aria-controls="tecnovigilanciaCollapse">Observaciones</a>
+                            </div>
+                            <div class="offset-sm-2 col-sm-8 collapse" id="tecnovigilanciaCollapse">
+                                <textarea class="form-control mt-3" rows="3" placeholder="Observaciones de tecnovigilancia ..."></textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <h4 class="card-header font-16 mt-0">Evaluación Técnica</h4>
+                <div class="card-body">
+                    <form>
+                        <!-- Input block -->
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Relación edad- vida útil</label>
+                            <div class="col-sm-6">
+                                <select class="form-control">
+                                    <option selected="selected" disabled>Seleccione ..</option>
+                                    <option>Menor a 5 años</option>
+                                    <option>Entre 5 y 7 años</option>
+                                    <option>Entre 7 y 9 años</option>
+                                    <option>Entre 9y 11 años</option>
+                                    <option>Mayor a 11 años</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-2">
+                                <a class="btn btn-info mo-mb-2" data-toggle="collapse" href="#edadCollapse" aria-expanded="false" aria-controls="edadCollapse">Observaciones</a>
+                            </div>
+                            <div class="col-sm-10 collapse" id="edadCollapse">
+                                <textarea class="form-control mt-3" rows="3" placeholder="Observaciones de la relación entre la edad y la vida útil del equipo (avalúo) ..."></textarea>
+                            </div>
+                        </div>
+
+                         <!-- Input block -->
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Mantenimientos correctivos en el último año</label>
+                            <div class="col-sm-6">
+                                <select class="form-control">
+                                    <option selected="selected" disabled>Seleccione ..</option>
+                                    <option>0</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3 0 más</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-2">
+                                <a class="btn btn-info mo-mb-2" data-toggle="collapse" href="#mttoCollapse" aria-expanded="false" aria-controls="mttoCollapse">Observaciones</a>
+                            </div>
+                            <div class="col-sm-10 collapse" id="mttoCollapse">
+                                <textarea class="form-control mt-3" rows="3" placeholder="Observaciones de mantenimientos correctivos en el último año ..."></textarea>
+                            </div>
+                        </div>
+
+                         <!-- Input block -->
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Certificación de soporte de repuestos</label>
+                            <div class="col-sm-6">
+                                <select class="form-control">
+                                    <option selected="selected" disabled>Seleccione ..</option>
+                                    <option>Mayor a 5 años</option>
+                                    <option>Entre 2 y 5 años</option>
+                                    <option>Entre 1 y 2 años</option>
+                                    <option>Menos de 1 año/option></option>
+                                </select>
+                            </div>
+                            <div class="col-sm-2">
+                                <a class="btn btn-info mo-mb-2" data-toggle="collapse" href="#repuestoCollapse" aria-expanded="false" aria-controls="reuestoCollapse">Observaciones</a>
+                            </div>
+                            <div class="col-sm-10 collapse" id="repuestoCollapse">
+                                <textarea class="form-control mt-3" rows="3" placeholder="Observaciones de certificación de soporte de repuestos ..."></textarea>
+                            </div>
+                        </div>
+
+                         <!-- Input block -->
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Soporte de consumibles</label>
+                            <div class="col-sm-6">
+                                <select class="form-control">
+                                    <option selected="selected" disabled>Seleccione ..</option>
+                                    <option>Mayor a 5 años</option>
+                                    <option>Entre 2 y 5 años</option>
+                                    <option>Entre 1 y 2 años</option>
+                                    <option>Menos de 1 año/option></option>
+                                    <option>No requiere></option>
+                                </select>
+                            </div>
+                            <div class="col-sm-2">
+                                <a class="btn btn-info mo-mb-2" data-toggle="collapse" href="#consumibleCollapse" aria-expanded="false" aria-controls="consumibleCollapse">Observaciones</a>
+                            </div>
+                            <div class="col-sm-10 collapse" id="consumibleCollapse">
+                                <textarea class="form-control mt-3" rows="3" placeholder="Observaciones de soporte de consumibles ..."></textarea>
+                            </div>
+                        </div>
+
+                         <!-- Input block -->
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Soporte técnico</label>
+                            <div class="col-sm-6">
+                                <select class="form-control">
+                                    <option selected="selected" disabled>Seleccione ..</option>
+                                    <option>Mayor a 5 años</option>
+                                    <option>Entre 2 y 5 años</option>
+                                    <option>Entre 1 y 2 años</option>
+                                    <option>Menos de 1 año/option></option>
+                                </select>
+                            </div>
+                            <div class="col-sm-2">
+                                <a class="btn btn-info mo-mb-2" data-toggle="collapse" href="#tecnicoCollapse" aria-expanded="false" aria-controls="tecnicoCollapse">Observaciones</a>
+                            </div>
+                            <div class="col-sm-10 collapse" id="tecnicoCollapse">
+                                <textarea class="form-control mt-3" rows="3" placeholder="Observaciones de soporte técnico ..."></textarea>
+                            </div>
+                        </div>
+
+                         <!-- Input block -->
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Estado físico</label>
+                            <div class="col-sm-6">
+                                <select class="form-control">
+                                    <option selected="selected" disabled>Seleccione ..</option>
+                                    <option>Muy bueno</option>
+                                    <option>Bueno</option>
+                                    <option>Regular</option>
+                                    <option>Malo</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-2">
+                                <a class="btn btn-info mo-mb-2" data-toggle="collapse" href="#fisicoCollapse" aria-expanded="false" aria-controls="fisicoCollapse">Observaciones</a>
+                            </div>
+                            <div class="col-sm-10 collapse" id="fisicoCollapse">
+                                <textarea class="form-control mt-3" rows="3" placeholder="Observaciones del estado fisico del equipo..."></textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <h4 class="card-header font-16 mt-0">Evaluación económica</h4>
+                <div class="card-body">
+                    <form>
+                        <!-- Input block -->
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Inversión equipo nuevo</label>
+                            <div class="col-sm-6">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">$</span>
+                                    </div>
+                                    <input type="number" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <a class="btn btn-info mo-mb-2" data-toggle="collapse" href="#costonuevoCollapse" aria-expanded="false" aria-controls="costonuevoCollapse">Observaciones</a>
+                            </div>
+                            <div class="col-sm-10 collapse" id="costonuevoCollapse">
+                                <textarea class="form-control mt-3" rows="3" placeholder="Observaciones del costo de inversión del equipo nuevo ..."></textarea>
+                            </div>
+                        </div>
+
+                         <!-- Input block -->
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Matenimiento equipo nuevo</label>
+                            <div class="col-sm-6">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">$</span>
+                                    </div>
+                                    <input type="number" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <a class="btn btn-info mo-mb-2" data-toggle="collapse" href="#mttonuevoCollapse" aria-expanded="false" aria-controls="mttonuevoCollapse">Observaciones</a>
+                            </div>
+                            <div class="col-sm-10 collapse" id="mttonuevoCollapse">
+                                <textarea class="form-control mt-3" rows="3" placeholder="Observaciones del costo de Mantenimiento del equipo nuevo ..."></textarea>
+                            </div>
+                        </div>
+
+                         <!-- Input block -->
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Metrología equipo nuevo</label>
+                            <div class="col-sm-6">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">$</span>
+                                    </div>
+                                    <input type="number" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <a class="btn btn-info mo-mb-2" data-toggle="collapse" href="#metronuevoCollapse" aria-expanded="false" aria-controls="metronuevoCollapse">Observaciones</a>
+                            </div>
+                            <div class="col-sm-10 collapse" id="metronuevoCollapse">
+                                <textarea class="form-control mt-3" rows="3" placeholder="Observaciones del costo de metrología del equipo nuevo ..."></textarea>
+                            </div>
+                        </div>
+
+                         <!-- Input block -->
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Costo de operación equipo nuevo</label>
+                            <div class="col-sm-6">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">$</span>
+                                    </div>
+                                    <input type="number" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <a class="btn btn-info mo-mb-2" data-toggle="collapse" href="#operacionuevoCollapse" aria-expanded="false" aria-controls="operacionuevoCollapse">Observaciones</a>
+                            </div>
+                            <div class="col-sm-10 collapse" id="operacionuevoCollapse">
+                                <textarea class="form-control mt-3" rows="3" placeholder="Observaciones del costo de operación del equipo nuevo ..."></textarea>
+                            </div>
+                        </div>
+
+                         <!-- Input block -->
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Costo de consumibles equipo nuevo</label>
+                            <div class="col-sm-6">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">$</span>
+                                    </div>
+                                    <input type="number" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <a class="btn btn-info mo-mb-2" data-toggle="collapse" href="#consumiblesnuevoCollapse" aria-expanded="false" aria-controls="consumiblesnuevoCollapse">Observaciones</a>
+                            </div>
+                            <div class="col-sm-10 collapse" id="consumiblesnuevoCollapse">
+                                <textarea class="form-control mt-3" rows="3" placeholder="Observaciones del costo de inversión del equipo nuevo ..."></textarea>
+                            </div>
+                        </div>
+
+                        <!-- Input block -->
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Frecuencia de consumibles del equipo nuevo</label>
+                            <div class="col-sm-6">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">$</span>
+                                    </div>
+                                    <input type="number" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <a class="btn btn-info mo-mb-2" data-toggle="collapse" href="#frecuencianuevoCollapse" aria-expanded="false" aria-controls="frecuencianuevoCollapse">Observaciones</a>
+                            </div>
+                            <div class="col-sm-10 collapse" id="frecuencianuevoCollapse">
+                                <textarea class="form-control mt-3" rows="3" placeholder="Observaciones de la frecuencia de consumibles del equipo nuevo ..."></textarea>
+                            </div>
+                        </div>
+
+                        <!-- Input block -->
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Inversión equipo viejo</label>
+                            <div class="col-sm-6">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">$</span>
+                                    </div>
+                                    <input type="number" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <a class="btn btn-info mo-mb-2" data-toggle="collapse" href="#costoviejoCollapse" aria-expanded="false" aria-controls="costoviejoCollapse">Observaciones</a>
+                            </div>
+                            <div class="col-sm-10 collapse" id="costoviejoCollapse">
+                                <textarea class="form-control mt-3" rows="3" placeholder="Observaciones del costo de inversión del equipo viejo ..."></textarea>
+                            </div>
+                        </div>
+
+                        <!-- Input block -->
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Mantenimiento equipo viejo</label>
+                            <div class="col-sm-6">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">$</span>
+                                    </div>
+                                    <input type="number" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <a class="btn btn-info mo-mb-2" data-toggle="collapse" href="#mttoviejoCollapse" aria-expanded="false" aria-controls="mttoviejoCollapse">Observaciones</a>
+                            </div>
+                            <div class="col-sm-10 collapse" id="mttoviejoCollapse">
+                                <textarea class="form-control mt-3" rows="3" placeholder="Observaciones del costo de Mantenimiento del equipo viejo ..."></textarea>
+                            </div>
+                        </div>
+
+                        <!-- Input block -->
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Metrología equipo viejo</label>
+                            <div class="col-sm-6">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">$</span>
+                                    </div>
+                                    <input type="number" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <a class="btn btn-info mo-mb-2" data-toggle="collapse" href="#metroviejoCollapse" aria-expanded="false" aria-controls="metroviejoCollapse">Observaciones</a>
+                            </div>
+                            <div class="col-sm-10 collapse" id="metroviejoCollapse">
+                                <textarea class="form-control mt-3" rows="3" placeholder="Observaciones del costo de metrología del equipo viejo ..."></textarea>
+                            </div>
+                        </div>
+
+                        <!-- Input block -->
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Costo de operación equipo viejo</label>
+                            <div class="col-sm-6">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">$</span>
+                                    </div>
+                                    <input type="number" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <a class="btn btn-info mo-mb-2" data-toggle="collapse" href="#operaacionviejoCollapse" aria-expanded="false" aria-controls="operaacionviejoCollapse">Observaciones</a>
+                            </div>
+                            <div class="col-sm-10 collapse" id="operaacionviejoCollapse">
+                                <textarea class="form-control mt-3" rows="3" placeholder="Observaciones del costo de operaciónp del equipo viejo ..."></textarea>
+                            </div>
+                        </div>
+
+                        <!-- Input block -->
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Costo de consumibles equipo viejo</label>
+                            <div class="col-sm-6">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">$</span>
+                                    </div>
+                                    <input type="number" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <a class="btn btn-info mo-mb-2" data-toggle="collapse" href="#consumiblesviejoCollapse" aria-expanded="false" aria-controls="consumiblesviejoCollapse">Observaciones</a>
+                            </div>
+                            <div class="col-sm-10 collapse" id="consumiblesviejoCollapse">
+                                <textarea class="form-control mt-3" rows="3" placeholder="Observaciones del costo de consumibles del equipo viejo ..."></textarea>
+                            </div>
+                        </div>
+
+                         <!-- Input block -->
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Frecuencia de consumibles equipo viejo</label>
+                            <div class="col-sm-6">
+                                <input type="number" class="form-control">
+                            </div>
+                            <div class="col-sm-2">
+                                <a class="btn btn-info mo-mb-2" data-toggle="collapse" href="#frecuenciaviejoCollapse" aria-expanded="false" aria-controls="frecuenciaviejoCollapse">Observaciones</a>
+                            </div>
+                            <div class="col-sm-10 collapse" id="frecuenciaviejoCollapse">
+                                <textarea class="form-control mt-3" rows="3" placeholder="Observaciones de la frecuencia de consumibles del equipo viejo ..."></textarea>
+                            </div>
+                        </div>
+
+                         <!-- Input block -->
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Relación VPN equipo nuevo vs VPN equipo viejo</label>
+                            <div class="col-sm-6">
+                                <input type="number" class="form-control">
+                            </div>
+                            <div class="col-sm-2">
+                                <a class="btn btn-info mo-mb-2" data-toggle="collapse" href="#vpnCollapse" aria-expanded="false" aria-controls="vpnCollapse">Observaciones</a>
+                            </div>
+                            <div class="col-sm-10 collapse" id="vpnCollapse">
+                                <textarea class="form-control mt-3" rows="3" placeholder="Observaciones de la relación VPN equipo nuevo vs VPN equipo viejo ..."></textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+    	<div class="col">
+    		<a [routerLink]="['../', 'index']" class="btn btn-primary float-right m-b-3">Guardar Evaluación</a>
+    	</div>
+    </div>
+</div>
